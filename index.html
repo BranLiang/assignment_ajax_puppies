@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Puppy</title>
+    <script src="jquery.js" charset="utf-8"></script>
+    <script src="controller.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="app.css" charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <p class="log"></p>
+      <h1>The AJAX puppy shelter</h1>
+    </header>
+
+    <hr>
+
+    <main>
+      <section>
+        <h3>Register a new puppy</h3>
+        <form>
+          <label for="name">Name</label>
+          <input type="text" name="name">
+          <br>
+          <label for="breed">Breed</label>
+          <input type="text" name="breed_id">
+          <br>
+          <input type="submit" value="Confirm">
+        </form>
+      </section>
+
+      <hr>
+
+      <section>
+        <h3>Our puppies:</h3>
+        <a href="#" name="refresh">Refresh puppy list</a>
+        <ul>
+        </ul>
+      </section>
+    </main>
+
+  </body>
+</html>

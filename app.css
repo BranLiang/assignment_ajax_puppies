@@ -1,0 +1,9 @@
+header {
+  text-align: center;
+}
+
+section {
+  display: block;
+  width: 500px;
+  margin: 20px auto;
+}
